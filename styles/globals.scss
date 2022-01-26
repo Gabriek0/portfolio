@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-100: #757575;
+  --black-150: #323232;
+  --black-200: #1A1A1A;
+
+  --white: #F9F9F9;
+  --green: #00DF5E;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

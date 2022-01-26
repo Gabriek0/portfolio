@@ -1,0 +1,64 @@
+.sectionContainer {
+    background: var(--black-200);
+    height: 100vh;
+    padding: 0 10rem;
+
+    .contentContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .presentationContainer {
+            align-items: center;
+            margin-top: 8rem;
+
+            h1 {
+                color: var(--white);
+                font-size: 2rem;
+            }
+
+            h5 {
+                text-align: left;
+                margin-top: 0.8rem;
+                color: var(--black-100);
+            }
+
+            .buttonsContainer {
+                display: flex;
+                margin-top: 0.8rem;
+                
+                button {
+                    padding: 0.6rem;
+                    font-weight: 600;
+
+                    &:nth-child(1) {
+                        background: var(--green);
+                        border: 0;
+                        color: var(--black-200);
+                    }
+
+                    &:nth-child(2) {
+                        margin-left: 0.8rem;
+                        border: 2px solid var(--black-150);
+                        background: var(--black-200);
+                        color: var(--white);
+                    }
+
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+
+                    
+                }
+            }
+        }
+
+        .imageContainer {
+            display: flex;
+            justify-content: right;
+            margin-top: 10rem;
+            width: 50%
+        }
+    }
+}

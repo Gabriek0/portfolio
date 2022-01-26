@@ -1,0 +1,50 @@
+.headerContainer {
+    height: 5rem;
+    border: 2px solid black;
+    background: var(--black-200);
+    color: var(--white);
+}
+
+.contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+
+    h2 {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    nav {
+            font-weight: 400;
+
+        a {
+            display: inline-block;
+            padding: 0 1rem;
+            line-height: 5rem;
+            height: 5rem;
+            position: relative;
+            transition: color 0.2s;
+            cursor: pointer;
+
+            & + a {
+                margin-left: 2rem
+            }
+
+            &:hover::after {
+                color: rgb(199, 195, 195);
+                content: '';
+                height: 3px;
+                width: 100%; 
+                border-radius: 3px 3px 0 0;
+                background: #eba417;
+                bottom: 2px;
+                left: 0;
+                position: absolute;
+                font-weight: 900;
+            }
+        
+        }
+    }
+}
