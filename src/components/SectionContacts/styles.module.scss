@@ -1,0 +1,16 @@
+.contactContainer {
+    border: 2px solid red;
+    margin-top: 7rem;
+    height: 5rem;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+        li {
+            color: var(--white);
+            font-weight: bold;
+        }
+    };
+}

@@ -1,0 +1,19 @@
+.aboutMeContainer {
+    display: flex;
+    margin-top: 7rem;
+    padding: 0 20%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid green;
+
+    h1 {
+        color: var(--white);
+    }
+
+    p {
+        margin-top: 1rem;
+        line-height: 1.6;
+        color: var(--black-100);
+    }
+}

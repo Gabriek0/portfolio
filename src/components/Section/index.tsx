@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import styles from './styles.module.scss';
 import developerIcon from '../../../public/images/developer.svg';
+import { SectionAboutMe } from '../SectionAboutMe';
+import { SectionContacts } from '../SectionContacts';
+import { SectionProjects } from '../SectionProjects';
 
 export function Section() {
     return (
@@ -22,9 +25,9 @@ export function Section() {
                     </div>
 
                 </div>
-                <div className={styles.aboutMeContainer}>
-
-                </div>
+                <SectionAboutMe />
+                <SectionContacts />
+                <SectionProjects />
             </section>
         </>
     )

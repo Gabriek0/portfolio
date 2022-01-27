@@ -1,0 +1,19 @@
+.projectsContainer {
+    border: 2px solid blue;
+    margin-top: 2rem;
+
+    h1 {
+        color: var(--white);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        display: grid;
+        color: var(--white);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        text-align: center;
+        list-style: none;
+    }
+}
