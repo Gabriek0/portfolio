@@ -1,7 +1,7 @@
 .sectionContainer {
     background: var(--black-200);
-    height: 1160px;
     padding: 0 10rem;
+    height: 3000px;
 
     .contentContainer {
         display: flex;
@@ -30,6 +30,7 @@
                 button {
                     padding: 0.6rem;
                     font-weight: 600;
+                    border-radius: 0.3rem;
 
                     &:nth-child(1) {
                         background: var(--green);

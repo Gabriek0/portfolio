@@ -1,7 +1,6 @@
 .contactContainer {
-    border: 2px solid red;
     margin-top: 7rem;
-    height: 5rem;
+    height: 10rem;
 
     ul {
         display: flex;
@@ -9,8 +8,35 @@
         list-style: none;
 
         li {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: var(--black-150);
+                width: 4rem;
+                height: 4rem;
+                border-radius: 50%;
+            
+                .icons {
+                    height: 2rem;
+                    width: 2rem;
+                    color: var(--green);
+                    cursor: pointer;
+                }
+            }
+
+            h3 {
+            margin-top: 0.5rem;
             color: var(--white);
             font-weight: bold;
+            font-size: 0.9rem;
+            }
+
         }
     };
 }

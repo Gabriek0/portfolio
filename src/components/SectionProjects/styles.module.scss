@@ -1,5 +1,4 @@
 .projectsContainer {
-    border: 2px solid blue;
     margin-top: 2rem;
 
     h1 {
@@ -12,8 +11,38 @@
         display: grid;
         color: var(--white);
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1rem;
+        grid-gap: 2rem;
         text-align: center;
         list-style: none;
+        
+        li {
+            height: 240px;
+            width: 350px;
+            background: var(--black-150);
+            
+            .contentContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .projectContainer {
+                    margin-top: 2rem;
+                    width: 300px;
+                    height: 130px;
+                    background: var(--black-200);
+                }
+
+            h3 {
+                margin-top: 1rem;
+                color: var(--white);
+                
+            }
+
+            p {
+                margin-top: 0.3rem;
+                color: var(--black-100);
+            }
+        }
+        }
     }
 }

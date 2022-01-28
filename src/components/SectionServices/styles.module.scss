@@ -1,0 +1,23 @@
+.servicesContainer {
+    margin-top: 3rem;
+
+    h1 {
+        color: var(--white);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    
+
+        li {
+            height: 240px;
+            width: 350px;
+            background: var(--black-150);
+            list-style: none;
+        }
+    }
+}
