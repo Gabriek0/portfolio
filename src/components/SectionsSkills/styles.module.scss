@@ -13,10 +13,17 @@
         grid-gap: 1rem;
 
         li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 150px;
             width: 150px;
             background: var(--black-150);
             list-style: none;
+
+            img {
+                cursor: pointer;
+            }
         }
     }
 }
