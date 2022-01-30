@@ -2,7 +2,6 @@ import { useState } from 'react';
 import styles from './styles.module.scss';
 
 export function Header() {
-    const [hoverEffect, setHoverEffect] = useState(false);
     return (
         <header className={styles.headerContainer}>
             <div className={styles.contentContainer}>
