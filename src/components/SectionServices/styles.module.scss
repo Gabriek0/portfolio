@@ -21,6 +21,11 @@
             background: var(--black-150);
             list-style: none;
             position: relative;
+            transition: filter 0.2s;
+
+            &:hover {
+                filter: brightness(0.9);
+            }
 
             &::after {
                 content: '';
