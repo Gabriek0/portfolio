@@ -7,7 +7,12 @@ import { SectionProjects } from '../SectionProjects';
 import { SectionServices } from '../SectionServices';
 import { SectionSkills } from '../SectionsSkills';
 
-export function Section() {
+interface SectionProps {
+    openModal: () => void
+}
+
+
+export function Section({ openModal }: SectionProps) {
     return (
         <>
             <section className={styles.sectionContainer}>
@@ -29,7 +34,9 @@ export function Section() {
                 </div>
                 <SectionAboutMe />
                 <SectionContacts />
-                <SectionProjects />
+                <SectionProjects
+                    openModal={openModal}
+                />
                 <SectionServices />
                 <SectionSkills />
             </section>
