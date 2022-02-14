@@ -1,5 +1,5 @@
-import Modal from 'react-modal'
-import styles from './style.module.scss'
+import Modal from 'react-modal';
+import styles from './style.module.scss';
 
 interface ModalProps {
     isOpen: boolean
@@ -16,8 +16,18 @@ export function ModalComponent({ isOpen, onRequestClose }: ModalProps) {
                 className={styles.reactModalContent}
             >
                 <div>
-                    <button onClick={onRequestClose}>X</button>
-                    <h1>Modal</h1>
+                    <button
+                        onClick={onRequestClose}
+                        className={styles.reactModalClose}
+                    >
+                        X
+                    </button>
+
+                    <div>
+                        <img src="" alt="" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in</p>
+                    </div>
                 </div>
             </Modal>
         </>

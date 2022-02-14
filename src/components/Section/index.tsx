@@ -18,7 +18,7 @@ export function Section({ openModal }: SectionProps) {
             <section className={styles.sectionContainer}>
                 <div className={styles.contentContainer}>
                     <div className={styles.presentationContainer}>
-                        <h1>Olá, eu sou o <br></br>Gabriel Henrique :)</h1>
+                        <h1>Olá, eu sou o <br></br>Gabriel Henrique</h1>
                         <h5>Desenvolvedor Front-end</h5>
                         <div className={styles.buttonsContainer}>
                             <button>Download CV</button>

@@ -7,10 +7,9 @@ import rocketShoesGif from '../../../public/images/rocketshoes.gif'
 import taskListGif from '../../../public/images/task-list.gif'
 import formValidationGif from '../../../public/images/form-validation.gif'
 import cpfValidationGif from '../../../public/images/cpf-validation.gif'
-import { useState } from 'react';
 
 interface SectionProjectsProps {
-    openModal: () => void;
+    openModal: () => void
 }
 
 export function SectionProjects({ openModal }: SectionProjectsProps) {
