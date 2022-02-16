@@ -1,12 +1,14 @@
 import Modal from 'react-modal';
+import { ProjectTypes } from '../../types/TypeProjects';
 import styles from './style.module.scss';
 
 interface ModalProps {
     isOpen: boolean
     onRequestClose: () => void
+    currentProject: ProjectTypes | null
 }
 
-export function ModalComponent({ isOpen, onRequestClose }: ModalProps) {
+export function ModalComponent({ isOpen, onRequestClose, currentProject }: ModalProps) {
     return (
         <>
             <Modal
@@ -23,10 +25,10 @@ export function ModalComponent({ isOpen, onRequestClose }: ModalProps) {
                         X
                     </button>
 
-                    <div>
-                        <img src="" alt="" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in</p>
+                    <div className={styles.modalContent}>
+                        <h1>{currentProject?.title}</h1>
+                        {currentProject?.imagePath && <img src={currentProject?.imagePath} alt="project image" />}
+                        <p>{currentProject?.description}</p>
                     </div>
                 </div>
             </Modal>
