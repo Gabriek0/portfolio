@@ -1,0 +1,19 @@
+.footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    background: var(--black-180);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+    p {
+        color: var(--white);
+        letter-spacing: .1rem;
+
+        span {
+            color: var(--green);
+        }
+    }
+}

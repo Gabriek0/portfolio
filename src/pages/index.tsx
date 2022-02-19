@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Footer } from "../components/Footer";
 import { ModalComponent } from "../components/ModalComponent";
 import { Section } from "../components/Section";
 import { ProjectTypes } from "../types/TypeProjects";
@@ -29,6 +30,7 @@ export default function Home() {
         onRequestClose={closeModal}
         currentProject={currentProject}
       />
+      <Footer />
     </>
   )
 }

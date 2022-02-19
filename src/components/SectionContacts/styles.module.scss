@@ -1,3 +1,9 @@
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-10px);} 
+    60% {transform: translateY(-5px);} 
+ }
+
 .contactContainer {
     margin-top: 7rem;
     height: 10rem;
@@ -12,6 +18,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            cursor: pointer;
 
             div {
                 display: flex;
@@ -21,12 +28,21 @@
                 width: 4rem;
                 height: 4rem;
                 border-radius: 50%;
+
+                &:hover {
+                    filter: brightness(0.9);
+                }
             
                 .icons {
                     height: 2rem;
                     width: 2rem;
                     color: var(--green);
                     cursor: pointer;
+                    
+                    &:hover {
+                        animation: bounce 1s;
+                    }
+
                 }
             }
 
