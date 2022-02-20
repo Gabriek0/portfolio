@@ -15,49 +15,65 @@ export function SectionSkills() {
         <div className={styles.skillsContainer}>
             <h1>Minhas Skills</h1>
             <ul>
-                <li>
-                    <Image
-                        src={cssIcon}
-                        width={80}
-                        height={80}
-                    />
-                </li>
-                <li>
-                    <Image
-                        src={htmlIcon}
-                        width={80}
-                        height={80}
-                    />
-                </li>
-                <li>
-                    <Image
-                        src={jsIcon}
-                        width={80}
-                        height={80}
-                    />
-                </li>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+                    <li>
+                        <Image
+                            src={cssIcon}
+                            width={80}
+                            height={80}
+                        />
+                    </li>
+                </a>
 
-                <li>
-                    <Image
-                        src={tsIcon}
-                        width={100}
-                        height={100}
-                    />
-                </li>
-                <li>
-                    <Image
-                        src={reactIcon}
-                        width={80}
-                        height={80}
-                    />
-                </li>
-                <li>
-                    <Image
-                        src={nextIcon}
-                        width={80}
-                        height={80}
-                    />
-                </li>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+                    <li>
+                        <Image
+                            src={htmlIcon}
+                            width={80}
+                            height={80}
+                        />
+                    </li>
+                </a>
+
+                <a href="https://www.javascript.com/" target="_blank">
+                    <li>
+                        <Image
+                            src={jsIcon}
+                            width={80}
+                            height={80}
+                        />
+                    </li>
+                </a>
+
+                <a href="https://www.typescriptlang.org/" target="_blank">
+                    <li>
+                        <Image
+                            src={tsIcon}
+                            width={100}
+                            height={100}
+                        />
+                    </li>
+                </a>
+
+                <a href="https://pt-br.reactjs.org/" target="_blank">
+                    <li>
+                        <Image
+                            src={reactIcon}
+                            width={80}
+                            height={80}
+                        />
+                    </li>
+                </a>
+
+                <a href="https://nextjs.org/" target="_blank">
+                    <li>
+                        <Image
+                            src={nextIcon}
+                            width={80}
+                            height={80}
+                        />
+                    </li>
+                </a>
             </ul>
         </div>
     )

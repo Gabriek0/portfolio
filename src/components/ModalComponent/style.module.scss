@@ -1,10 +1,14 @@
 .reactModalContent {
     width: 100%;
     position: relative;
-    max-width: 576px;
+    max-width: 780px;
     padding: 3rem;
     background: var(--white);
     border-radius: 0.25rem;
+    outline: none;
+
+    display: flex;
+    justify-content: center
 }
 
 .reactModalOverlay {
@@ -37,8 +41,28 @@
 }
 
 .modalContent {
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
     img {
-        height: 10rem;
-        width: 10rem;
+        height: 20rem;
+        width: 100%;
+        border: var(--black-100);
+        margin-bottom: 2rem;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        padding: 0.3rem;
+        border: 0;
+
     }
 }

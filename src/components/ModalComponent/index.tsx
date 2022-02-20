@@ -1,6 +1,7 @@
 import Modal from 'react-modal';
 import { ProjectTypes } from '../../types/TypeProjects';
 import styles from './style.module.scss';
+import { AiFillGithub } from 'react-icons/ai';
 
 interface ModalProps {
     isOpen: boolean
@@ -29,6 +30,7 @@ export function ModalComponent({ isOpen, onRequestClose, currentProject }: Modal
                         <h1>{currentProject?.title}</h1>
                         {currentProject?.imagePath && <img src={currentProject?.imagePath} alt="project image" />}
                         <p>{currentProject?.description}</p>
+                        <button> <AiFillGithub /> Acessar no Github </button>
                     </div>
                 </div>
             </Modal>

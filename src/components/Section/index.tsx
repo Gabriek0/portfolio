@@ -22,8 +22,14 @@ export function Section({ openModal }: SectionProps) {
                         <h1>Olá, eu sou o <br></br>Gabriel Henrique</h1>
                         <h5>Desenvolvedor Front-end</h5>
                         <div className={styles.buttonsContainer}>
-                            <button>Download CV</button>
-                            <button>Entrar em contato</button>
+
+                            <a href="../../../public/documents/cv.pdf" download>
+                                <button className={styles.buttonDownload} type="button">Download CV</button>
+                            </a>
+
+                            <a href="https://web.whatsapp.com/send?phone=5513997522115" target="_blank">
+                                <button className={styles.buttonContact}>Entrar em contato</button>
+                            </a>
                         </div>
                     </div>
                     <div className={styles.imageContainer}>

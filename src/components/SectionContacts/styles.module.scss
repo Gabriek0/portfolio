@@ -13,6 +13,9 @@
         justify-content: space-around;
         list-style: none;
 
+        a {
+            text-decoration: none;
+        
         li {
             margin-top: 1rem;
             display: flex;
@@ -40,7 +43,7 @@
                     cursor: pointer;
                     
                     &:hover {
-                        animation: bounce 1s;
+                        animation: bounce 1.0s;
                     }
 
                 }
@@ -51,8 +54,14 @@
             color: var(--white);
             font-weight: bold;
             font-size: 0.9rem;
+                }
+
+            p {
+                margin-top: .3rem;
+                color: var(--black-100);
             }
 
-        }
-    };
+            }
+        };
+    }
 }
