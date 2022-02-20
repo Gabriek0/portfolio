@@ -12,7 +12,8 @@ export const projectList = {
         imagePath: '/images/letsread.gif',
         description: `O projeto Let's Read foi desenvolvido com o intuito de construir 
         uma plataforma aonde o usuário pode adicionar postagens e artigos com algum conteúdo. Clicando em "Nova postagem" 
-        abrirá uma tela, aonde o usuário pode adicionar uma imagem, um título e uma descrição para o post. `
+        abrirá uma tela, aonde o usuário pode adicionar uma imagem, um título e uma descrição para o post. `,
+        github: 'https://github.com/gabriek0/letsread'
     },
 
     dtMoneyGif: {
@@ -22,20 +23,24 @@ export const projectList = {
         desenvolvido na trilha de Reactjs do programa de aceleração de devs da Rocketseat.
         Assim, o usuário pode adicionar um título, valor, entrada e saída e também, adicionar uma categoria.
         Após o usuário adicionar o sistema vai contabilizar o saldo e mostrar em tela a soma.
-        `
+        `,
+        github: 'https://github.com/gabriek0/dtmoney'
     },
 
     rocketShoesGif: {
         title: `Rocket shoes`,
         imagePath: '/images/rocketshoes.gif',
         description: `RocketShoes é um projeto que simula uma loja de sapatos virtual. O usuário pode ver a listagem de itens 
-        criada por uma fake API construída pelo MirageJS. Assim, é possível realizar o controle do estoque do carrinho de compras.`
+        criada por uma fake API construída pelo MirageJS. Assim, é possível realizar o controle do estoque do carrinho de compras.`,
+        github: 'https://github.com/gabriek0/rocketshoes'
+
     },
 
     taskListGif: {
         title: `Task list`,
         imagePath: '/images/task-list.gif',
-        description: 'O usuário é capaz de adicionar tarefas, excluí-las e editá-las. Esse projeto foi desenvolvido utilizando Reactjs, Typescrypt e SSAS.'
+        description: 'O usuário é capaz de adicionar tarefas, excluí-las e editá-las. Esse projeto foi desenvolvido utilizando Reactjs, Typescrypt e SSAS.',
+        github: 'https://github.com/gabriek0/task-list'
     },
 
     formValidationGif: {
@@ -43,7 +48,8 @@ export const projectList = {
         imagePath: '/images/form-validation.gif',
         description: `Form validation é um projeto pessoal, construído com o 
         Vanilla JS, HTML e CSS. A lógica foi desenvolvida para validar campos de um formulário, verificando
-        se há caracteres nos campos, o tamanho deles e outras condições.`
+        se há caracteres nos campos, o tamanho deles e outras condições.`,
+        github: 'https://github.com/gabriek0/form-validation'
     },
 
     cpfValidationGif: {
@@ -51,6 +57,7 @@ export const projectList = {
         imagePath: '/images/cpf-validation.gif',
         description: `No Brasil existe um cálculo capaz de validar um CPF. Para verificar 
         se ele é verdadeiro ou não, com base nisso realizei a construção de um projeto capaz de realizar esse cálculo.
-        Assim, quando o usuário colocar o CPF os campos irão verificar e mostrar o resultado.`
+        Assim, quando o usuário colocar o CPF os campos irão verificar e mostrar o resultado.`,
+        github: 'https://github.com/gabriek0/cpf-validation'
     }
 }

@@ -6,7 +6,6 @@ import { SectionContacts } from '../SectionContacts';
 import { SectionProjects } from '../SectionProjects';
 import { SectionServices } from '../SectionServices';
 import { SectionSkills } from '../SectionsSkills';
-import { Footer } from '../Footer';
 
 interface SectionProps {
     openModal: () => void

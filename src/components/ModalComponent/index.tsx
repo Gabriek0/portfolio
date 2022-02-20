@@ -30,7 +30,11 @@ export function ModalComponent({ isOpen, onRequestClose, currentProject }: Modal
                         <h1>{currentProject?.title}</h1>
                         {currentProject?.imagePath && <img src={currentProject?.imagePath} alt="project image" />}
                         <p>{currentProject?.description}</p>
-                        <button> <AiFillGithub /> Acessar no Github </button>
+                        <div className={styles.buttonStyle}>
+                            <a href={currentProject?.github} target="_blank">
+                                <button> <span><AiFillGithub /></span> Acessar no Github </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </Modal>

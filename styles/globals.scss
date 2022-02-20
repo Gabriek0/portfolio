@@ -15,6 +15,10 @@
   --green: #00DF5E;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--black-200);

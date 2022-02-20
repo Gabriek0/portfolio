@@ -57,12 +57,38 @@
         text-align: justify;
     }
 
-    button {
-        display: flex;
-        align-items: center;
-        margin-top: 2rem;
-        padding: 0.3rem;
-        border: 0;
+.buttonStyle {
+    display: flex;
+    justify-content: center;
 
+    a {
+        text-decoration: none;
+    
+        button {
+            display: flex;
+            align-items: center;
+            margin-top: 3rem;
+            padding: 0.6rem 1rem;
+            border: 0;
+            border-radius: .2rem;
+            font-weight: 600;
+            color: var(--white);
+            background: var(--black-170);
+            cursor: pointer;
+            transition: background 0.2s;
+
+            &:hover {
+                background: darken(#828282, 15%)
+            }
+
+            span {
+                display: flex;
+                align-items: center;
+                margin-right: .3rem;
+                color: white;
+                }
+
+            }
+        }
     }
 }

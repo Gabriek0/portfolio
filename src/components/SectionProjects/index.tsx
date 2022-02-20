@@ -17,7 +17,7 @@ interface SectionProjectsProps {
 export function SectionProjects({ openModal }: SectionProjectsProps) {
 
     return (
-        <div className={styles.projectsContainer}>
+        <div id="projects" className={styles.projectsContainer}>
             <h1>Projetos</h1>
             <ul>
                 <li>

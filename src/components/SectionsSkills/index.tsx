@@ -12,7 +12,7 @@ import nextIcon from '../../../public/images/next-icon.svg'
 
 export function SectionSkills() {
     return (
-        <div className={styles.skillsContainer}>
+        <div id="skills" className={styles.skillsContainer}>
             <h1>Minhas Skills</h1>
             <ul>
                 <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">

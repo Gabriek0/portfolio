@@ -27,6 +27,8 @@
             position: relative;
             transition: color 0.2s;
             cursor: pointer;
+            text-decoration: none;
+            color: var(--white);
 
             & + a {
                 margin-left: 2rem

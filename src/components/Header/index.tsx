@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import styles from './styles.module.scss';
 
 export function Header() {
@@ -7,10 +6,10 @@ export function Header() {
             <div className={styles.contentContainer}>
                 <h2>Portfólio</h2>
                 <nav>
-                    <a>Sobre mim</a>
-                    <a>Projetos</a>
-                    <a>Serviços</a>
-                    <a>Minhas skills</a>
+                    <a href="#aboutMe">Sobre mim</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#skills">Minhas skills</a>
                 </nav>
             </div>
         </header>
